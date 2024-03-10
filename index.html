@@ -4,26 +4,56 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html">Finance Ledger</a>
+    <header class="header">
+      <div class="container">
+        <nav class="navigation">
+          <a class="logo" href="./index.html">
+            <span class="logo-part">Finance</span> Ledger</a
+          >
 
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Cases</a></li>
-          <li><a href="">Blog</a></li>
-          <li><a href="">Contact</a></li>
-        </ul>
-      </nav>
+          <ul class="navigation-list">
+            <li class="navigation-list-item">
+              <a class="navigation-list-link" href="">Home</a>
+            </li>
+            <li class="navigation-list-item">
+              <a class="navigation-list-link" href="">About</a>
+            </li>
+            <li class="navigation-list-item">
+              <a class="navigation-list-link" href="">Cases</a>
+            </li>
+            <li class="navigation-list-item">
+              <a class="navigation-list-link" href="">Blog</a>
+            </li>
+            <li class="navigation-list-item">
+              <a class="navigation-list-link" href="">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
-      <section>
-        <h1>The Sky Is The Limit</h1>
-        <p>We provide world class financial assistance</p>
-        <button type="button">>Read More</button>
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero-title">The Sky Is The Limit</h1>
+          <p class="hero-text">We provide world class financial assistance</p>
+          <button class="hero-btn" type="button">>Read More</button>
+        </div>
       </section>
       <section>
         <img src="./img/Rectangle.jpg" alt="our team" />
@@ -91,11 +121,11 @@
         </ul>
       </section>
       <section>
-        <img src="./img/man.jpg" alt="man work">
+        <img src="./img/man.jpg" alt="man work" />
         <h2>Request Callback</h2>
         <form>
-          <input type="text" placeholder="Enter your name">
-          <input type="email" placeholder="Enter email*">
+          <input type="text" placeholder="Enter your name" />
+          <input type="email" placeholder="Enter email*" />
           <button type="submit">Send</button>
         </form>
       </section>
