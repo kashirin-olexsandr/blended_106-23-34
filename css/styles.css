@@ -42,7 +42,10 @@ button {
 }
 
 .header {
-  background-color: #4d4b4b;
+  position: absolute;
+  /* width: 100%; */
+  left: 0;
+  right: 0;
 }
 
 .header .container {
@@ -81,6 +84,10 @@ button {
   background-color: #4d4b4b;
   padding-top: 279px;
   padding-bottom: 282px;
+  background-image: url(../img/hero-bg.jpg); 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .hero-title {
   font-weight: 300;
