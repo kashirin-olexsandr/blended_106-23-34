@@ -34,6 +34,7 @@ img {
 
 button {
   cursor: pointer;
+  
 }
 .container {
   max-width: 1360px;
@@ -78,10 +79,34 @@ button {
 
 .hero {
   background-color: #4d4b4b;
+  padding-top: 279px;
+  padding-bottom: 282px;
 }
 .hero-title {
+  font-weight: 300;
+    font-size: 55px;
+    line-height: 1.2;
+    text-align: center;
+    color: #e9e9e9;
+    margin-bottom: 24px;
 }
 .hero-text {
+  font-weight: 400;
+    font-size: 22px;
+    line-height: 1.67;
+    text-align: center;
+    color: #e9e9e9;
+    margin-bottom: 32px;
 }
 .hero-btn {
+  border-radius: 5px;
+    min-width: 165px;
+    min-height: 48px;
+    background: #28a745;
+    display: block;
+    margin: 0 auto;
+    border: none;
+      line-height: 1.56;
+      text-align: center;
+      color: #fff;
 }
