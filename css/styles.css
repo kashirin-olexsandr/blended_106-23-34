@@ -121,30 +121,36 @@ button {
   background-color: #28a745;
 }
 
-.about .container {
+.about .container,
+.blog .container {
   display: flex;
 }
 
-.about-wrap {
+.about-wrap,
+.blog-wrap {
   padding: 80px 64px 80px 20px;
 }
 
-.about-subtitle {
+.about-subtitle,
+.blog-subtitle {
   margin-bottom: 8px;
   font-size: 20px;
   line-height: 1.65;
 }
-.about-title {
+.about-title,
+.blog-title {
   margin-bottom: 24px;
   font-weight: 300;
   font-size: 38px;
   line-height: 1.26;
 }
-.about-text {
+.about-text,
+.blog-text {
   margin-bottom: 24px;
   line-height: 1.56;
 }
-.about-btn {
+.about-btn,
+.blog-btn {
   font-family: inherit;
   font-size: 18px;
   line-height: 1.56;
@@ -156,35 +162,35 @@ button {
 }
 
 .cases {
-padding: 80px 0;
+  padding: 80px 0;
 }
 
 .cases .container {
   padding: 0 28px;
 }
 .cases-subtitle {
-    font-size: 20px;
-    line-height: 1.65;
-    text-align: center;
-    color: #333;
-    margin-bottom: 24px;
+  font-size: 20px;
+  line-height: 1.65;
+  text-align: center;
+  color: #333;
+  margin-bottom: 24px;
 }
 
 .cases-title {
   font-weight: 300;
-    font-size: 38px;
-    line-height: 1.26;
-    text-align: center;
-    color: #333;
-    margin-bottom: 24px;
+  font-size: 38px;
+  line-height: 1.26;
+  text-align: center;
+  color: #333;
+  margin-bottom: 24px;
 }
 
 .cases-text {
-    font-size: 18px;
-    line-height: 1.56;
-    text-align: center;
-    color: #333;
-    margin-bottom: 24px;
+  font-size: 18px;
+  line-height: 1.56;
+  text-align: center;
+  color: #333;
+  margin-bottom: 24px;
 }
 
 .cases-list {
@@ -197,4 +203,17 @@ padding: 80px 0;
 
 .cases-item {
   width: calc((100% - 40px) / 3);
+}
+.blog {
+  background: #0284d0;
+}
+.blog-wrap {
+}
+.blog-subtitle {
+}
+.blog-title {
+}
+.blog-text {
+}
+.blog-btn {
 }
